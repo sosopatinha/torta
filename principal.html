@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #5c341c;
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        header img {
+            max-width: 300px; /* Defina o tamanho máximo da sua logo */
+            height: auto;
+        }
+
+        header h1 {
+            margin-top: 0;
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .button {
+            display: block; /* Alterado para display block */
+            background-color: #1a0b06;
+            color: #fff;
+            padding: 15px 60px; /* Ajuste o padding para aumentar o tamanho do botão */
+            border-radius: 25px;
+            text-decoration: none;
+            margin: 10px auto; /* Alterado para centralizar horizontalmente */
+            font-size: 25px; /* Aumentar o tamanho da fonte */
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #ce8360;
+        }
+
+        @media (max-width: 768px) {
+            .button {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="logo.png" alt="Logo da marca">
+    </header>
+
+    <div class="container">
+        <a href="https://api.whatsapp.com/send?phone=5512974015853&text=Ol%C3%A1%20Cris%20%2C%20achei%20o%20seu%20whatsapp%20pelo%20seu%20link%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.%20" target="_blank" class="button">WhatsApp</a>
+        <a href="cardapio.html" class="button">Cardápio</a>
+    </div>
+</body>
+
+</html>
